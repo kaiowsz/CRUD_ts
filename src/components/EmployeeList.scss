@@ -1,0 +1,52 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+    .actions {
+        display: flex;
+        gap: 10px;
+        
+        input {
+            padding: 0.3rem 0.8rem;
+            cursor: pointer;
+            border: none;
+            // font-size: 0.8rem;
+            border-radius: 4px;
+            transition: all .3s;
+            color: white;
+        }
+
+        .button-view {
+            background-color: rgb(91, 91, 204);
+        }
+        .button-view:hover {
+            background-color: rgb(53, 53, 172);
+        }
+
+        .button-edit {
+            background-color: rgb(255, 94, 0);
+        }
+        .button-edit:hover {
+            background-color: rgb(214, 83, 7);
+        }
+
+        .button-delete {
+            background-color: rgb(158, 0, 0);
+        }
+        .button-delete:hover {
+            background-color: rgb(100, 5, 5);
+        }
+
+    }
+}
+
+td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(226, 226, 226);
+}

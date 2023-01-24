@@ -1,0 +1,61 @@
+.modal-edit {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+
+    .content-edit {
+        background-color: white;
+        padding: 5rem;
+        border-radius: 5px;
+
+        input {
+            border: none;
+            background-color: lightgray;
+            padding: .5rem;
+            border-radius: 6px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+        .buttons-add {
+            flex-direction: row;
+            gap: 5px;
+            width: 100%;
+            justify-content: center;
+        }
+        
+        .back-employee, .add-employee {
+            padding: .5rem;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-employee {
+            background-color: rgb(207, 0, 0);
+        }
+        .back-employee:hover {
+            background-color: rgb(100, 5, 5);
+        }
+    
+    
+        .add-employee {
+            background-color: rgb(91, 91, 204);
+        }  
+        .add-employee:hover {
+            background-color: rgb(53, 53, 172);
+        }
+
+    }
+}

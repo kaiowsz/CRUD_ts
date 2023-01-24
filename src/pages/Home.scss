@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+
+    .info-employees {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        h2 {
+            color: rgb(91, 91, 204);
+        }
+
+        .add-employee {
+            cursor: pointer;
+            border: none;
+            background-color: rgb(91, 91, 204);
+            color: white;
+            font-size: 1rem;
+            border-radius: 5px;
+            padding: .6rem .9rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    p {
+        font-size: .9rem;
+    }
+}

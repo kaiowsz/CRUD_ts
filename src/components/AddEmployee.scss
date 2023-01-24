@@ -1,0 +1,68 @@
+form {
+    box-shadow: 2px 4px 5px -4px rgba(0, 0, 0, 0.596);
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+    h2 {
+        margin-bottom: 30px;
+        font-size: 2rem;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+
+        label {
+            text-align: left;
+            justify-self: flex-start;
+        }
+        
+
+        input {
+            padding: 0.5rem;
+            width: 90%;
+            border-radius: 5px;
+            border: none;
+            background-color: lightgray;
+            color: rgb(43, 42, 42);
+            
+            
+        }
+    }
+
+    .buttons-add {
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 40px;
+
+        input {
+            min-width: fit-content;
+            width: 40%;
+            cursor: pointer;
+            color: white;
+            font-weight: bolder;
+            font-size: 1rem;
+        }
+    }
+
+
+    .back-employee {
+        background-color: rgb(207, 0, 0);
+    }
+    .back-employee:hover {
+        background-color: rgb(100, 5, 5);
+    }
+
+
+    .add-employee {
+        background-color: rgb(91, 91, 204);
+    }  
+    .add-employee:hover {
+        background-color: rgb(53, 53, 172);
+    }
+}
